@@ -38,6 +38,7 @@ require("./app/routes/ingrediente.routes")(app);
 require("./app/routes/menu.routes")(app);
 require("./app/routes/empleado.routers")(app);
 require("./app/routes/categoria.routers")(app);
+require("./app/routes/cliente.routers")(app);
 
 
 

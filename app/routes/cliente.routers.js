@@ -1,7 +1,7 @@
 const { authJwt } = require("../middleware");
 
 module.exports= app=>{
-    const cliente=require("../controllers/cliente..controller");
+    const cliente=require("../controllers/cliente.controller");
     var router =require("express").Router();
 
     router.post("/", cliente.create);

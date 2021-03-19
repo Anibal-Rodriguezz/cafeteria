@@ -30,6 +30,8 @@ db.ingrediente = require("./ingrediente.model")(sequelize, Sequelize);
 db.empleado = require("./empleado.model")(sequelize, Sequelize);
 db.menu = require("./menu.model")(sequelize, Sequelize);
 db.categoria = require("./categoria.model")(sequelize, Sequelize);
+db.cliente = require("./cliente.model")(sequelize, Sequelize);
+
 
 db.role.belongsToMany(db.user, {
   through: "user_roles",
